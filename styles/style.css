@@ -1,0 +1,191 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    padding: 20px 0 ;
+    height: auto;
+}
+.conteiner{
+    width: 960px;
+    margin: 0 auto;
+}
+.logo_img , .header_logo_text , .logo_twitter_header , .logo_facebook_header{
+    display: inline-block;
+}
+.logo , .social_media{
+    display: inline-block;
+    width: 478px;
+}
+.logo{
+    text-align: left;
+}
+.social_media{
+    text-align: right;
+}
+.logo_twitter_header{
+    padding-left:15px ;
+}
+.header_logo_text{
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+    position: absolute;
+}
+.Banner_Container{
+    margin: 0 auto;
+    background-color: #FAC960;
+}
+.Banner_Content{
+    width: 960px;
+    margin: 0 auto;
+    padding: 100px;
+}
+.Banner_Text , .Banner_Email{
+    text-align: center;
+}
+.Banner_Text{
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 36px;
+    color: #8A6D2F;
+}
+.Banner_Email{
+    font-family: 'Roboto';
+    margin-top: 20px;
+    font-size: 0;
+    font-weight: bold;
+}
+span>input{
+    width: 500px;
+    height: 45px;
+    border:none ;
+    padding: 0;
+    font-size: 16px;
+    outline: none;
+
+}
+span>button{
+    width: 150px;
+    height: 45px;
+    border: none;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
+    color: white;
+    background-color: rgba(168, 134, 61, 1);
+}
+.Unlim_Container{
+   background-color: #eae9e9;
+    margin: 0 auto;
+    height: auto;
+}
+.Unlim_Content{
+    width: 960px;
+    padding: 30px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Roboto';
+}
+.Unlim_Title{
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color:rgba(0, 0, 0, 0.56)
+}
+.Unlim_Text{
+    padding: 20px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.56);
+}
+.Unlim_Photo{
+    padding: 20px;
+    display: block;
+    margin-left: auto ;
+    margin-right: auto ;
+    width: 240px;
+    text-align: center;
+}
+.Phone_Container{
+    margin: 0 auto;
+    height: auto;
+}
+.Phone_Content{
+    width: 960px;
+    padding: 30px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Roboto';
+}
+.Phone_Title{
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color:rgba(0, 0, 0, 0.56)
+}
+.Phone_Text{
+    padding: 20px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.75)
+}
+.Phone_Photo{
+    padding: 20px;
+    display: block;
+    margin-left: auto ;
+    margin-right: auto ;
+    width: 240px;
+    text-align: center;
+}
+.About_Container{
+    margin: 0 auto;
+    background-color: #FAC960;
+}
+.About_Content{
+    width: 960px;
+    padding: 50px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Roboto';
+}
+.About_Title{
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color:rgba(0, 0, 0, 0.56)
+}
+.About_Text{
+    padding: 20px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.75)
+}
+.About_Button{
+    padding: 20px;
+}
+.About_Button>button{
+    width: 75px;
+}
+.Footer_Container{
+    margin: 0 auto;
+}
+.Footer_Content{
+    width: 960px;
+    padding: 100px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.Footer_Email , .Footer_Facebook , .Footer_Twitter{
+    display: inline-block;
+    margin-left: 15px;
+
+}
+.Footer_Logo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+    margin-left: auto ;
+    width: 387px;
+    text-align: center;
+}
